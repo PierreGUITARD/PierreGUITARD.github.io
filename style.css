@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Jost:ital,wght@0,700;1,400&family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", "sans-serif";
+    background-color: #141414;
+}
+
+/* nav */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d6d9e4;
+    position: sticky;
+    top: 0;
+    background-color: #070707;
+}
+nav h1{
+    color: #e8e9ec;
+    font-family: "jost";
+    letter-spacing:0.1rem ;
+    font-size: 30px;
+}
+nav .menu{
+    margin-left: 300px;
+}
+nav .menu a{
+    color: #e8e9ec;
+    font-family: "Montserrat", "sans-serif";
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 1.5px solid #D46D0C;
+    padding-bottom: 5px;   
+}
+
+
+/* header*/
+
+header{
+    padding-top: 50px;
+    background-image: url("img/test2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    background-size: 550px 550px;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color: #e8e9ec;
+    font-family: "jost";
+}
+#titre{
+    padding-top: 125px;  
+}
+
+
+/*main1 à propos de moi*/
+
+.main1{
+    width: 100%;
+    height: 100vh;
+    background-color:#FEFEFE;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 5%;
+}
+.about h1{
+    font-family: "jost";
+    font-size: 40px;
+    border-bottom: 3px solid #D46D0C;
+}
+
+
+/*main2 mon travail*/
+
+.main2{
+    width: 100%;
+    height: 100vh;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 5%;
+}
+.work h1{
+    font-family: "jost";
+    font-size: 40px;
+    border-bottom: 3px solid #D46D0C;
+}
+
+
+/*main3 mes projets*/
+
+.main3{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main3 .container .projet{
+padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.main3 .container .projet .left{
+flex: 0 0 60%;
+font-family: "jost";
+font-size: 20px;
+padding: 20px;
+background-color: #141414;
+color: white;
+padding: 50px;
+}
+.main3 .container .projet .right{
+    height: 300px;
+    width: 400px;
+    flex: 0 0 40%;
+    padding: 50px;
+    background-color: #292929;
+    color: white;
+}
+
+
+/* main4 competences*/
+
+.main4{
+    background-color: #292929;
+    height: 70vh;
+    color: white;
+}
+.competences{
+    display: flex;
+    justify-content: center;
+    border-left: #D46D0C;
+}
+.competences .skill{
+    text-decoration: none;
+}
+.competences .skill h1{
+    font-family: "jost";
+    font-size: 30px;
+    padding: 30px; 
+}
+li{
+    text-decoration: none; 
+}
+
+/* main5 post-bts*/
+.main5{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FEFEFE ;
+    height: 70vh;
+}
+.main5 h1{
+    display: flex;
+    justify-content: center;
+    font-family: "jost";
+    font-size: 30px;
+    border-bottom: 2px #D46D0C;
+}
+.main5 p{
+    display: flex;
+    justify-content: center;
+}
+
+/* main6 veille techno*/
+
+.main6{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.twitter{
+    background: url("img/twitter.png");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px 80px;
+}
+.feedly{
+    background: url("img/feedly.png");
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px 80px;
+}
+.main6 h1{
+    display: flex;
+    justify-content: center;
+    font-family: "jost";
+    color: white;
+    font-size: 30px;
+}
+.main6 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* footer*/
+.footer{
+    padding-top: 40px;
+}
+.contacts{
+    border-top: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-around;
+}
+.contact h1{
+    color: white;
+    font-family: "jost";
+    font-size: 20px;
+    align-items: center;
+}
+.contact p{
+    color: white;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
